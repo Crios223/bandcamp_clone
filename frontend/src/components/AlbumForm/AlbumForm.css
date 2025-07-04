@@ -1,0 +1,31 @@
+.album-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.album-form h2 {
+  text-align: center;
+}
+
+.album-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.album-form input,
+.album-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  box-sizing: border-box;
+}
+
+.album-form button {
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: 0 auto;
+}
