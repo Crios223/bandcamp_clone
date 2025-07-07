@@ -1,0 +1,79 @@
+.review-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-form h2 {
+  margin-bottom: 16px;
+}
+
+.review-errors {
+  color: red;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.rating-input {
+  margin-bottom: 16px;
+}
+
+.rating-icons {
+  display: flex;
+  align-items: center;
+}
+
+.rating-icon {
+  font-size: 32px;
+  color: lightgray; /* default greyed out */
+  margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.rating-icon.highlighted {
+  color: orange;
+  transform: scale(1.15);
+}
+
+.rating-icon:hover {
+  transform: scale(1.2);
+}
+
+.checkmark {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  font-size: 16px;
+  color: dodgerblue;
+}
+
+.comment-area {
+  margin-bottom: 16px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #222;
+}

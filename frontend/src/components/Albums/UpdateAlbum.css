@@ -1,61 +1,108 @@
-.form-container {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 24px;
-  background-color: #ffffff;
+.review-form {
   border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.05);
-  font-family: sans-serif;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #fafafa;
 }
 
-.form-container h2 {
-  text-align: center;
-  margin-bottom: 24px;
-  font-size: 24px;
+.review-form h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
 }
 
-form {
+.review-errors {
+  color: red;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.rating-input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating-icons {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  gap: 5px;
+  margin-bottom: 15px;
 }
 
-label {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
+.rating-icon {
+  font-size: 28px;
+  color: #bbb; /* gray by default */
+  transition: color 0.3s ease;
+  position: relative;
+  cursor: pointer;
 }
 
-input,
-textarea {
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+.rating-icon.selected {
+  color: black;
 }
 
-textarea {
+.rating-icon.hovered {
+  color: orange;
+}
+
+.rating-icon:hover {
+  color: orange;
+}
+
+.checkmark {
+  font-size: 16px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
+
+.comment-area label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-area textarea {
+  width: 100%;
   resize: vertical;
-  min-height: 60px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
-button[type="submit"] {
-  padding: 12px;
-  background-color: #5588dd;
+.review-form button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 15px;
+  background-color: #333;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: bold;
-  font-size: 15px;
-  transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
-  background-color: #3366bb;
+.review-form button:hover {
+  background-color: #555;
 }
 
-p {
+/* 🔽 NEW: Button container under reviews */
+.review-buttons {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.review-buttons button {
+  padding: 6px 12px;
   font-size: 13px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.review-buttons button:hover {
+  background-color: #666;
 }

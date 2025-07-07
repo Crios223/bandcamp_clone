@@ -56,6 +56,10 @@ import AlbumShow from './components/Albums/ShowAlbum';
 import LandingPage from './components/LandingPage/LandingPage';
 import ManageAlbums from './components/Albums/ManageAlbums';
 import UpdateAlbum from './components/Albums/UpdateAlbum';
+import SignupForm from './components/SignupForm/SignupForm';
+import LoginForm from './components/LoginForm/LoginForm';
+
+
 
 import { restoreUser } from './store/session';
 
@@ -78,6 +82,8 @@ export default function App() {
         <Route path="/albums/:id" element={<AlbumShow />} />
         <Route path="/albums/manage" element={<ManageAlbums />} />
         <Route path="/albums/:id/edit" element={<UpdateAlbum />} />
+        <Route path="/signup" element={<SignupForm />} />
+        <Route path="/login" element={<LoginForm />} />
       </Routes>
     </>
   );

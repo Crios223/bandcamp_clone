@@ -20,3 +20,19 @@ class Review(db.Model):
 
     def __repr__(self):
         return f"<Review {self.id} - User {self.user_id} Album {self.album_id} Track {self.track_id}>"
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "user_id": self.user_id,
+            "album_id": self.album_id,
+            "track_id": self.track_id,
+            "rating": self.rating,
+            "comment": self.comment,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
+            "updated_at": self.updated_at.isoformat() if self.updated_at else None,
+            "user": {
+                "id": self.user.id,
+                "username": self.user.username
+            } if self.user else None
+        }

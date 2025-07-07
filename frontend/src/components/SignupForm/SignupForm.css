@@ -1,0 +1,38 @@
+.signup-form-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 320px;
+}
+
+.signup-form input,
+.signup-form select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.signup-form button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-form .url-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.signup-form .url-input span {
+  font-size: 14px;
+  color: #555;
+}
