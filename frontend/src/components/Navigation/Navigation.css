@@ -24,7 +24,7 @@
   font-size: 20px;
 }
 
-/* --- NEW STYLES --- */
+
 .navbar-right {
   display: flex;
   align-items: center;
@@ -35,6 +35,7 @@
   font-weight: 500;
   margin-right: 8px;
 }
+
 
 .dropdown {
   position: relative;

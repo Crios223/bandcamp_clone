@@ -1,3 +1,32 @@
+/* .album-show {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.album-cover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.album-description {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #444;
+} */
+
+
 .album-show {
   max-width: 600px;
   margin: 3rem auto;
@@ -24,4 +53,85 @@
   font-size: 1rem;
   margin-top: 0.5rem;
   color: #444;
+}
+
+/* Add to Cart button */
+.add-to-cart-button {
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #1258a4;
+}
+
+/* Reviews Section */
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.rating-score {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Review Buttons (update/delete) */
+.review-buttons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.review-buttons button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+}
+
+.review-buttons button:hover {
+  background-color: #555;
+}
+
+/* Review List */
+.review-list {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.review-item {
+  border-top: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+/* Review form buttons */
+.review-actions {
+  margin-top: 1.5rem;
+}
+
+.review-actions button {
+  background-color: #555;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.review-actions button:hover {
+  background-color: #333;
 }

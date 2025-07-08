@@ -29,7 +29,7 @@
 
 .rating-icon {
   font-size: 32px;
-  color: lightgray; /* default greyed out */
+  color: lightgray; 
   margin-right: 8px;
   cursor: pointer;
   position: relative;

@@ -4,6 +4,10 @@ from .album import Album
 
 class User(db.Model):
     __tablename__ = 'users'
+
+
+
+    
 #                 ---- User Modlel   -----------
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(50), nullable=False, unique=True)
