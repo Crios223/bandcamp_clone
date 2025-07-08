@@ -19,7 +19,7 @@ function LoginForm() {
     try {
       const user = await dispatch(login({ email, password }));
       if (user) {
-        navigate('/'); // redirect on success
+        navigate('/');
       }
     } catch (err) {
       setErrors(err.message || 'Invalid login');

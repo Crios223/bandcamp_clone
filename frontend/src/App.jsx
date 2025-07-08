@@ -1,25 +1,3 @@
-// import { useState, useEffect } from 'react';
-// import { useDispatch }       from 'react-redux';
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-//   Outlet,
-// } from 'react-router-dom';
-
-
-// import Navigation from './components/Navigation/Navigation';
-
-
-
-// export default function App() {
-//   return (
-//     <>
-//       <Navigation />
-//       <Outlet />
-//     </>
-//   );
-// }
-
 // ------ CRUD OG CODE ------
 
 // import { Routes, Route } from 'react-router-dom';
